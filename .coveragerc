@@ -1,0 +1,5 @@
+[run]
+include = openshift_demo/*
+omit = *migrations*, *tests*
+plugins =
+    django_coverage_plugin
